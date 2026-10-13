@@ -1,0 +1,94 @@
+
+**** 10/13/26 12:31:16 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-excersise2"  [ D:\kenura\cadence\excersise2-PSpiceFiles\SCHEMATIC1\excersise2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "excersise2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXCERSISE2
+R_R1         N00179 N00186  3 TC=0,0 
+R_R4         N00186 N00190  6 TC=0,0 
+R_R7         N00190 N00194  9 TC=0,0 
+R_R2         N00226 N00186  4 TC=0,0 
+R_R3         0 N00226  2 TC=0,0 
+R_R6         0 N00190  12 TC=0,0 
+R_R9         N00201 N00194  3 TC=0,0 
+R_R10         N00201 0  3 TC=0,0 
+V_V1         N00179 0 6Vdc
+R_R5         N00186 0  12 TC=0,0 
+R_R8         N00194 0  6 TC=0,0 
+
+**** RESUMING excersise2.cir ****
+.END
+
+**** 10/13/26 12:31:16 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-excersise2"  [ D:\kenura\cadence\excersise2-PSpiceFiles\SCHEMATIC1\excersise2.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00179)    6.0000 (N00186)    3.0000 (N00190)    1.5000 (N00194)     .3750     
+
+(N00201)     .1875 (N00226)    1.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.000E+00
+
+    TOTAL POWER DISSIPATION   6.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/13/26 12:31:16 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-excersise2"  [ D:\kenura\cadence\excersise2-PSpiceFiles\SCHEMATIC1\excersise2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

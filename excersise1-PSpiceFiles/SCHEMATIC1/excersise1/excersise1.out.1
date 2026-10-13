@@ -1,0 +1,56 @@
+
+**** 10/13/26 12:28:39 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-excersise1"  [ D:\kenura\cadence\excersise1-PSpiceFiles\SCHEMATIC1\excersise1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "excersise1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXCERSISE1
+R_R1         N00394 N01113  4 TC=0,0 
+R_R2         N01170 N01113  4 TC=0,0 
+R_R3         N00190 N01170  8 TC=0,0 
+R_R5         N00346 N00190  4 TC=0,0 
+R_R6         N00346 N01128  2 TC=0,0 
+R_R7         N01128 N00190  2 TC=0,0 
+V_V1         N00394 N00190 5Vdc
+R_R4         N01113 N00346  10 TC=0,0 
+
+**** RESUMING excersise1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00394 is floating
+
+ERROR(ORPSIM-15142): Node N01113 is floating
+
+ERROR(ORPSIM-15142): Node N01170 is floating
+
+ERROR(ORPSIM-15142): Node N00190 is floating
+
+ERROR(ORPSIM-15142): Node N00346 is floating
+
+ERROR(ORPSIM-15142): Node N01128 is floating
+

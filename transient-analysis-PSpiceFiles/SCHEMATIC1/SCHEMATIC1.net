@@ -1,0 +1,5 @@
+* source TRANSIENT-ANALYSIS
+R_R1         N00177 N00092  1k TC=0,0 
+C_C1         0 N00092  1u  TC=0,0 
+V_VPulse         N00177 0  
++PULSE 0 4 0 1ns 1ns 8ms 16ms
